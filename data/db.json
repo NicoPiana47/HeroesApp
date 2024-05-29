@@ -2,8 +2,9 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
-      "email": "john.due@gmail.com"
+      "user": "John Doe",
+      "email": "john.due@gmail.com",
+      "password": "123456"
     }
   ],
   "heroes": [
@@ -14,6 +15,22 @@
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
       "characters": "Bruce Wayne"
+    },
+    {
+      "id": "dc-superman",
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1",
+      "characters": "Kal-El"
+    },
+    {
+      "id": "dc-flash",
+      "superhero": "Flash",
+      "publisher": "DC Comics",
+      "alter_ego": "Jay Garrick",
+      "first_appearance": "Flash Comics #1",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
     },
     {
       "id": "dc-green",
@@ -150,15 +167,6 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
-    },
-    {
-      "id": "3xG3Y3t",
-      "superhero": "Pipilinga",
-      "publisher": "DC Comics",
-      "alter_ego": "mamushca",
-      "first_appearance": "en mi casa",
-      "characters": "papagallo, sirena",
-      "alt_img": "https://static.wixstatic.com/media/425666_9af4ab2b2f4046cea83f54b25ae4cc54~mv2_d_1250_1250_s_2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/425666_9af4ab2b2f4046cea83f54b25ae4cc54~mv2_d_1250_1250_s_2.jpg"
     }
   ]
 }
