@@ -1,20 +1,35 @@
-<div class="flex flex-column">
+<form [formGroup]="registerForm" class="flex flex-column" (ngSubmit)="onSubmit()">
 
   <span class="text-lg mb-4">Registro</span>
 
   <mat-form-field>
-    <mat-label>Usuario</mat-label>
-    <input type="text" matInput placeholder="Nombre de usuario">
+    <mat-label>Email</mat-label>
+    <input
+      type="text"
+      matInput
+      placeholder="Email"
+      formControlName="email"
+    >
   </mat-form-field>
 
   <mat-form-field>
     <mat-label>Nombre</mat-label>
-    <input type="text" matInput placeholder="Nombre">
+    <input
+      type="text"
+      matInput
+      placeholder="Nombre"
+      formControlName="user"
+    >
   </mat-form-field>
 
   <mat-form-field>
     <mat-label>Contraseña</mat-label>
-    <input type="password" matInput placeholder="Contraseña">
+    <input
+      type="password"
+      matInput
+      placeholder="Contraseña"
+      formControlName="password"
+    >
   </mat-form-field>
 
   <button mat-button mat-flat-button color="primary">
@@ -25,4 +40,4 @@
   <div class="flex justify-content-end mt-5">
     <a routerLink="/auth/Login">¿Ya tienes cuenta?</a>
   </div>
-</div>
+</form>

@@ -5,6 +5,18 @@
       "user": "John Doe",
       "email": "john.due@gmail.com",
       "password": "123456"
+    },
+    {
+      "password": "123456",
+      "user": "Nicolás",
+      "email": "nicosampi@hotmail.com",
+      "id": 2
+    },
+    {
+      "password": "123456",
+      "user": "Diego el mas lindo",
+      "email": "diego@gmail.com",
+      "id": 3
     }
   ],
   "heroes": [
@@ -167,6 +179,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "rkXLSKA",
+      "superhero": "Shazam",
+      "publisher": "DC Comics",
+      "alter_ego": "Billy Batson",
+      "first_appearance": "En su ciudad",
+      "characters": "Capitán Marvel, Pedro",
+      "alt_img": "https://i.pinimg.com/originals/d7/f9/23/d7f923871b3993d1dede65e0d05f211f.jpg"
     }
   ]
 }

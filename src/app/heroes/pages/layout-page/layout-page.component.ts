@@ -21,7 +21,7 @@ export class LayoutPageComponent {
   ){}
 
   get user(): User | undefined{
-    return this.authService.currentUser
+    return structuredClone(this.authService.currentUser)
   }
 
   onLogout(){

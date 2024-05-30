@@ -4,16 +4,16 @@
 
   <mat-form-field>
     <mat-label>Usuario</mat-label>
-    <input type="text" matInput placeholder="Nombre de usuario">
+    <input #user type="text" matInput placeholder="Nombre de usuario">
   </mat-form-field>
 
   <mat-form-field>
     <mat-label>Contraseña</mat-label>
-    <input type="password" matInput placeholder="Contraseña">
+    <input #password type="password" matInput placeholder="Contraseña">
   </mat-form-field>
 
   <button mat-button mat-flat-button color="primary"
-    (click)="onLogin()">
+    (click)="onLogin(user.value, password.value)">
     <mat-icon>save</mat-icon>
     Ingresar
   </button>
